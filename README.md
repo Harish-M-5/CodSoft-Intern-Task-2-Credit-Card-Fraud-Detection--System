@@ -28,6 +28,19 @@ With the rapid growth of online transactions, credit card fraud has become a ser
 
 ---
 ## Dataset
+
+⚠️
+Due to GitHub file size limitations, the datasets used in this project are not uploaded directly to this repository.
+
+📌 Reason
+The datasets are very large and exceed GitHub’s recommended file size limits.
+Uploading large datasets can slow down repository cloning and is not considered a best practice.
+
+🔗 Dataset Download Links
+Please download the datasets manually from the following sources and place them inside the dataset/ folder:
+fraudTrain.csv – Training dataset
+fraudTest.csv – Testing dataset
+
 https://www.kaggle.com/datasets/kartik2112/fraud-detection
 
 ---
@@ -69,7 +82,55 @@ pip install -r requirements.txt
 
 - fraudTrain.csv: Training dataset containing historical transaction records
 
+🔹 Purpose
+Used to train the machine learning model.
+
+🔹 What it contains
+Historical credit card transactions
+Both fraudulent (1) and non-fraudulent (0) records
+
+Features like:
+- Transaction amount
+- Transaction time
+- Merchant information
+- User details
+- Category, location, etc.
+
+
+🔹 Role in ML Model
+The model learns patterns of fraud
+Understands relationships between features and the target variabl
+
+
+Used for:
+- Feature learning
+- Model fitting
+- Parameter optimization
+
+
+
 - fraudTest.csv: Testing dataset used for evaluation
+
+🔹 Purpose
+Used to evaluate the trained model.
+
+🔹 What it contains
+New transactions not seen during training
+Same structure as training dataset
+Represents real-world data
+
+
+🔹 Role in ML Model
+Tests how well the model performs on unseen data
+
+Measures:
+- Accuracy
+- Precision
+- Recall
+- Fraud detection performance
+
+
+others:
 
 - Target column: is_fraud
 

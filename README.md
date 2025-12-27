@@ -29,6 +29,7 @@ With the rapid growth of online transactions, credit card fraud has become a ser
 ---
 ## Dataset
 https://www.kaggle.com/datasets/kartik2112/fraud-detection
+
 ---
 
 ## ⚙️ Project Setup
@@ -45,23 +46,20 @@ credit_card_fraud_detection/
 
 ---
 
-## 
----
-
 ## 📦 Installation Setup
 
-1. Clone the repository:
+- 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/credit-card-fraud-detection.git
 
    Navigate to the project directory:
 
-2. Navigate to the project directory:
+- 2. Navigate to the project directory:
 
 cd credit-card-fraud-detection
 
 
-4. Install required dependencies:
+- 3. Install required dependencies:
 
 pip install -r requirements.txt
 
@@ -134,38 +132,38 @@ Step 4: Deploy model using Streamlit UI
 ---
 ## 📘 Learning Outcomes
 
-Understanding real-world fraud detection problems
+- Understanding real-world fraud detection problems
 
-Hands-on experience with supervised ML models
+-Hands-on experience with supervised ML models
 
-Data preprocessing and feature scaling
+-Data preprocessing and feature scaling
 
-Model deployment using Streamlit
+- Model deployment using Streamlit
 
-End-to-end ML project development
+- End-to-end ML project development
 
 ---
 
 ## 📂 Data Information
 
-High-dimensional transaction data
+-High-dimensional transaction data
 
-Imbalanced dataset (fraud cases are rare)
+- Imbalanced dataset (fraud cases are rare)
 
-Numerical features used for training
+- Numerical features used for training
 
 ---
 ## 🔑 Key Concepts
 
-Supervised Machine Learning
+- Supervised Machine Learning
 
-Logistic Regression
+- Logistic Regression
 
-Data Scaling
+- Data Scaling
 
-Model Serialization (Pickle)
+- Model Serialization (Pickle)
 
-Streamlit Deployment
+- Streamlit Deployment
 
 ---
 
@@ -183,25 +181,24 @@ Streamlit Deployment
 
 ## 🚀 Future Enhancements
 
-Use advanced models (Random Forest, XGBoost)
+- Use advanced models 
 
-Handle class imbalance using SMOTE
+- Handle class imbalance using SMOTE
 
-Add categorical feature encoding
+- Add categorical feature encoding
 
-Improve UI with charts and metrics
-
-Deploy on cloud platforms
+- Improve UI with charts and metrics
+
 
 ---
 
 ## ⚙️ Configuration
 
-Python version: 3.8+
+- Python version: 3.8+
 
-Dataset path configurable inside model_train.py
+- Dataset path configurable inside model_train.py
 
-Streamlit runs on default port 8501
+- Streamlit runs on default port 8501
 
 ---
 ## output
@@ -211,6 +208,13 @@ Streamlit runs on default port 8501
 
 
 ---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+
+--- 
 
 ## 🙏 Acknowledgments
 

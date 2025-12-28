@@ -75,19 +75,22 @@ credit_card_fraud_detection/
    ```bash
    git clone https://github.com/your-username/credit-card-fraud-detection.git
 
-   Navigate to the project directory:
-
+--
 
 - 2. Navigate to the project directory:
  
  ```bash 
 cd credit-card-fraud-detection
 
+--
+
 
 - 3. Install required dependencies:
 
  ```bash
 pip install -r requirements.txt
+
+
 
 ---
 

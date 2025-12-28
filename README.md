@@ -73,21 +73,20 @@ credit_card_fraud_detection/
 
 - 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/credit-card-fraud-detection.git
+   git clone https://github.com/Harish-M-5/credit-card-fraud-detection.git
 
---
 
 - 2. Navigate to the project directory:
  
- ```bash 
-cd credit-card-fraud-detection
+ ``bash
 
---
+cd credit-card-fraud-detection
 
 
 - 3. Install required dependencies:
 
- ```bash
+ ``bash
+
 pip install -r requirements.txt
 
 
@@ -265,7 +264,8 @@ Step 4: Deploy model using Streamlit UI
 - Add categorical feature encoding
 
 - Improve UI with charts and metrics
-
+
+
 
 ---
 
@@ -305,4 +305,5 @@ This project is licensed under the MIT License.
 ## ✅ Conclusion
 
 This Credit Card Fraud Detection System demonstrates how machine learning can be effectively used to solve real-world financial problems. The project successfully integrates data preprocessing, model training, evaluation, and deployment into a complete, practical solution.
+
 

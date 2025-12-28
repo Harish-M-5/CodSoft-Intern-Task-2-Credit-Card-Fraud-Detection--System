@@ -46,15 +46,25 @@ https://www.kaggle.com/datasets/kartik2112/fraud-detection
 ---
 
 ## ⚙️ Project Setup
+
 credit_card_fraud_detection/
+
 │
+
 ├── datasets/
+
 │ ├── fraudTrain.csv
+
 │ └── fraudTest.csv
+
 │
+
 ├── model_train.py
+
 ├── app.py
+
 ├── requirements.txt
+
 └── README.md
 
 ---
@@ -67,13 +77,16 @@ credit_card_fraud_detection/
 
    Navigate to the project directory:
 
-- 2. Navigate to the project directory:
 
+- 2. Navigate to the project directory:
+ 
+ ```bash 
 cd credit-card-fraud-detection
 
 
 - 3. Install required dependencies:
 
+ ```bash
 pip install -r requirements.txt
 
 ---

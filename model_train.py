@@ -14,9 +14,10 @@ print("Test columns:", test_df.columns)
 if "is_fraud" in train_df.columns:
     target_col = "is_fraud"
 else:
-    target_col = train_df.columns[-1]  # fallback
+    target_col = train_df.columns[-1]
 
 print("Target column detected:", target_col)
+
 
 X_train = train_df.drop(target_col, axis=1)
 y_train = train_df[target_col]

@@ -3,8 +3,7 @@ import numpy as np
 import pickle
 
 st.set_page_config(page_title="Credit Card Fraud Detection")
-
-# Load model safely
+
 try:
     model = pickle.load(open("fraud_model.pkl", "rb"))
     scaler = pickle.load(open("scaler.pkl", "rb"))
@@ -14,8 +13,7 @@ except:
 
 st.title("💳 Credit Card Fraud Detection")
 st.write("Enter transaction details to check fraud")
-
-# Fraud dataset numeric features count
+
 feature_count = model.coef_.shape[1]
 
 inputs = []
